@@ -1,2 +1,6 @@
 class Post:
-    api_url = "https://api.npoint.io/c790b4d5cab58020d391"
+    def __init__(self, post_id, title, subtitle, body):
+        self.id = post_id
+        self.title = title
+        self.subtitle = subtitle
+        self.body = body
